@@ -1,0 +1,35 @@
+{
+  "id": "um5-playtest",
+  "title": "UM5 Playtest",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "description": "<p>Playtest material using materials from Ultramodern5 OGL</p>",
+  "authors": [
+    {
+      "name": "VAD",
+      "url": "http://restenford.com/",
+      "discord": "VAD.BAD",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "sniper-um575",
+      "label": "Sniper UM5.75",
+      "path": "packs/sniper-um575",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ]
+}
